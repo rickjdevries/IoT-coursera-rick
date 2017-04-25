@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-coursera-rick
+  host: IoT-coursera-rick
+  disk_quota: 1024M
+  services:
+  - IoT-coursera-rick-cloudantNoSQLDB
+  - IoT-coursera-rick-iotf-service
